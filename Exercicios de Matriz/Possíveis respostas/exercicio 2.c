@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    // Definindo a matriz 2x4
+    
     int matriz[2][4];
 
-    // Preenchendo a matriz com números (você pode modificar para receber entrada do usuário)
+    
     printf("Digite os elementos da matriz 2x4:\n");
     for (int i = 0; i < 2; ++i) {
         for (int j = 0; j < 4; ++j) {
@@ -13,7 +13,7 @@ int main() {
         }
     }
 
-    // Calculando e exibindo a quantidade de elementos entre 12 e 20 em cada linha
+    
     printf("\nQuantidade de elementos entre 12 e 20 em cada linha:\n");
     for (int i = 0; i < 2; ++i) {
         int contador = 0;
@@ -25,7 +25,7 @@ int main() {
         printf("Linha %d: %d elementos\n", i + 1, contador);
     }
 
-    // Calculando e exibindo a média dos elementos pares da matriz
+    
     int soma_pares = 0, quantidade_pares = 0;
     for (int i = 0; i < 2; ++i) {
         for (int j = 0; j < 4; ++j) {
